@@ -94,7 +94,7 @@ with tab1:
 
 with tab2: 
     
-    df = pd.read_csv("Data/Covid Data.csv")
+    df = pd.read_csv("Covid Data.csv")
 
     # Getting rid of the missing values of features except "INTUBED", "PREGNANT", "ICU"
     cols = ['PNEUMONIA', 'DIABETES', 'COPD', 'ASTHMA', 'INMSUPR', 'HIPERTENSION',
@@ -122,7 +122,7 @@ with tab2:
 
 with tab3:
 
-    with open('Data\Covid Data.csv') as f:
+    with open('Covid Data.csv') as f:
         st.download_button('Download CSV', f)  
 
     st.link_button("Download PDF", "https://drive.google.com/file/d/1SztGQBgiJlBq6EM1J6UErkdBkOLsM5_H/view?usp=drive_link")
