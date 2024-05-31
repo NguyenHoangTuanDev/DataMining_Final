@@ -1,0 +1,1508 @@
+[
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "bar"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_JcAP",
+          "fid": "USMER",
+          "name": "USMER",
+          "basename": "USMER",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5KM8",
+          "fid": "MEDICAL_UNIT",
+          "name": "MEDICAL_UNIT",
+          "basename": "MEDICAL_UNIT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CZ_g",
+          "fid": "SEX",
+          "name": "SEX",
+          "basename": "SEX",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_X_ZY",
+          "fid": "PATIENT_TYPE",
+          "name": "PATIENT_TYPE",
+          "basename": "PATIENT_TYPE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uC_2",
+          "fid": "INTUBED",
+          "name": "INTUBED",
+          "basename": "INTUBED",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_I8pe",
+          "fid": "PNEUMONIA",
+          "name": "PNEUMONIA",
+          "basename": "PNEUMONIA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_eKzy",
+          "fid": "PREGNANT",
+          "name": "PREGNANT",
+          "basename": "PREGNANT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Ls39",
+          "fid": "DIABETES",
+          "name": "DIABETES",
+          "basename": "DIABETES",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_i2Mp",
+          "fid": "COPD",
+          "name": "COPD",
+          "basename": "COPD",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_m5zE",
+          "fid": "ASTHMA",
+          "name": "ASTHMA",
+          "basename": "ASTHMA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_GpVv",
+          "fid": "INMSUPR",
+          "name": "INMSUPR",
+          "basename": "INMSUPR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_HamJ",
+          "fid": "HIPERTENSION",
+          "name": "HIPERTENSION",
+          "basename": "HIPERTENSION",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_PLFI",
+          "fid": "OTHER_DISEASE",
+          "name": "OTHER_DISEASE",
+          "basename": "OTHER_DISEASE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_P3w6",
+          "fid": "CARDIOVASCULAR",
+          "name": "CARDIOVASCULAR",
+          "basename": "CARDIOVASCULAR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-3tr",
+          "fid": "OBESITY",
+          "name": "OBESITY",
+          "basename": "OBESITY",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-E-0",
+          "fid": "RENAL_CHRONIC",
+          "name": "RENAL_CHRONIC",
+          "basename": "RENAL_CHRONIC",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_lsM8",
+          "fid": "TOBACCO",
+          "name": "TOBACCO",
+          "basename": "TOBACCO",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_su6P",
+          "fid": "CLASIFFICATION_FINAL",
+          "name": "CLASIFFICATION_FINAL",
+          "basename": "CLASIFFICATION_FINAL",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Cu-Z",
+          "fid": "ICU",
+          "name": "ICU",
+          "basename": "ICU",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_tyDp",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mea_key_fid",
+          "fid": "gw_mea_key_fid",
+          "name": "Measure names",
+          "analyticType": "dimension",
+          "semanticType": "nominal"
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_0ZkJ",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        },
+        {
+          "dragId": "gw_mea_val_fid",
+          "fid": "gw_mea_val_fid",
+          "name": "Measure values",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_8fQr",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_4Cxr",
+          "fid": "SEX",
+          "name": "SEX",
+          "basename": "SEX",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dxMw",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      }
+    },
+    "visId": "gw_EFQe",
+    "name": "Chart 1"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "bar"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_u7ad",
+          "fid": "USMER",
+          "name": "USMER",
+          "basename": "USMER",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CnND",
+          "fid": "MEDICAL_UNIT",
+          "name": "MEDICAL_UNIT",
+          "basename": "MEDICAL_UNIT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_2DFV",
+          "fid": "SEX",
+          "name": "SEX",
+          "basename": "SEX",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7920",
+          "fid": "PATIENT_TYPE",
+          "name": "PATIENT_TYPE",
+          "basename": "PATIENT_TYPE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_aCFG",
+          "fid": "INTUBED",
+          "name": "INTUBED",
+          "basename": "INTUBED",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_xOlt",
+          "fid": "PNEUMONIA",
+          "name": "PNEUMONIA",
+          "basename": "PNEUMONIA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_h3HN",
+          "fid": "PREGNANT",
+          "name": "PREGNANT",
+          "basename": "PREGNANT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_WCgB",
+          "fid": "DIABETES",
+          "name": "DIABETES",
+          "basename": "DIABETES",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_SwZe",
+          "fid": "COPD",
+          "name": "COPD",
+          "basename": "COPD",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__iMV",
+          "fid": "ASTHMA",
+          "name": "ASTHMA",
+          "basename": "ASTHMA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CG7n",
+          "fid": "INMSUPR",
+          "name": "INMSUPR",
+          "basename": "INMSUPR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Mlyh",
+          "fid": "HIPERTENSION",
+          "name": "HIPERTENSION",
+          "basename": "HIPERTENSION",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_1sHd",
+          "fid": "OTHER_DISEASE",
+          "name": "OTHER_DISEASE",
+          "basename": "OTHER_DISEASE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_J_zu",
+          "fid": "CARDIOVASCULAR",
+          "name": "CARDIOVASCULAR",
+          "basename": "CARDIOVASCULAR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_EsJo",
+          "fid": "OBESITY",
+          "name": "OBESITY",
+          "basename": "OBESITY",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_xb8u",
+          "fid": "RENAL_CHRONIC",
+          "name": "RENAL_CHRONIC",
+          "basename": "RENAL_CHRONIC",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Hvc4",
+          "fid": "TOBACCO",
+          "name": "TOBACCO",
+          "basename": "TOBACCO",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KAYQ",
+          "fid": "CLASIFFICATION_FINAL",
+          "name": "CLASIFFICATION_FINAL",
+          "basename": "CLASIFFICATION_FINAL",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_v8Jl",
+          "fid": "ICU",
+          "name": "ICU",
+          "basename": "ICU",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_trhj",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mea_key_fid",
+          "fid": "gw_mea_key_fid",
+          "name": "Measure names",
+          "analyticType": "dimension",
+          "semanticType": "nominal"
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_T7uB",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        },
+        {
+          "dragId": "gw_mea_val_fid",
+          "fid": "gw_mea_val_fid",
+          "name": "Measure values",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_jzxe",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "mean",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_JcvO",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dSJ5",
+          "fid": "SEX",
+          "name": "SEX",
+          "basename": "SEX",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      }
+    },
+    "visId": "gw_XUfm",
+    "name": "Chart 2"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "boxplot"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_Shbg",
+          "fid": "USMER",
+          "name": "USMER",
+          "basename": "USMER",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_H6Mc",
+          "fid": "MEDICAL_UNIT",
+          "name": "MEDICAL_UNIT",
+          "basename": "MEDICAL_UNIT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_UdBP",
+          "fid": "SEX",
+          "name": "SEX",
+          "basename": "SEX",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_3fI8",
+          "fid": "PATIENT_TYPE",
+          "name": "PATIENT_TYPE",
+          "basename": "PATIENT_TYPE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_URSv",
+          "fid": "INTUBED",
+          "name": "INTUBED",
+          "basename": "INTUBED",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_sBcI",
+          "fid": "PNEUMONIA",
+          "name": "PNEUMONIA",
+          "basename": "PNEUMONIA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Vl4G",
+          "fid": "PREGNANT",
+          "name": "PREGNANT",
+          "basename": "PREGNANT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_1OxX",
+          "fid": "DIABETES",
+          "name": "DIABETES",
+          "basename": "DIABETES",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7u8K",
+          "fid": "COPD",
+          "name": "COPD",
+          "basename": "COPD",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4oOi",
+          "fid": "ASTHMA",
+          "name": "ASTHMA",
+          "basename": "ASTHMA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_0kS-",
+          "fid": "INMSUPR",
+          "name": "INMSUPR",
+          "basename": "INMSUPR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_aQHp",
+          "fid": "HIPERTENSION",
+          "name": "HIPERTENSION",
+          "basename": "HIPERTENSION",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Jgrz",
+          "fid": "OTHER_DISEASE",
+          "name": "OTHER_DISEASE",
+          "basename": "OTHER_DISEASE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_79kV",
+          "fid": "CARDIOVASCULAR",
+          "name": "CARDIOVASCULAR",
+          "basename": "CARDIOVASCULAR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MLHr",
+          "fid": "OBESITY",
+          "name": "OBESITY",
+          "basename": "OBESITY",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ndpm",
+          "fid": "RENAL_CHRONIC",
+          "name": "RENAL_CHRONIC",
+          "basename": "RENAL_CHRONIC",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RAJr",
+          "fid": "TOBACCO",
+          "name": "TOBACCO",
+          "basename": "TOBACCO",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_6QGU",
+          "fid": "CLASIFFICATION_FINAL",
+          "name": "CLASIFFICATION_FINAL",
+          "basename": "CLASIFFICATION_FINAL",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_VStt",
+          "fid": "ICU",
+          "name": "ICU",
+          "basename": "ICU",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cagC",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_0BHp",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "dimension",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mea_key_fid",
+          "fid": "gw_mea_key_fid",
+          "name": "Measure names",
+          "analyticType": "dimension",
+          "semanticType": "nominal"
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        },
+        {
+          "dragId": "gw_mea_val_fid",
+          "fid": "gw_mea_val_fid",
+          "name": "Measure values",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_JJ0i",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "dimension",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_PwUx",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      }
+    },
+    "visId": "gw_Si3u",
+    "name": "Chart 3"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "line"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_cIp9",
+          "fid": "USMER",
+          "name": "USMER",
+          "basename": "USMER",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_tsI1",
+          "fid": "MEDICAL_UNIT",
+          "name": "MEDICAL_UNIT",
+          "basename": "MEDICAL_UNIT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TIzA",
+          "fid": "SEX",
+          "name": "SEX",
+          "basename": "SEX",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MgMr",
+          "fid": "PATIENT_TYPE",
+          "name": "PATIENT_TYPE",
+          "basename": "PATIENT_TYPE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_o6xJ",
+          "fid": "INTUBED",
+          "name": "INTUBED",
+          "basename": "INTUBED",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_6Dsi",
+          "fid": "PNEUMONIA",
+          "name": "PNEUMONIA",
+          "basename": "PNEUMONIA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_w_WQ",
+          "fid": "PREGNANT",
+          "name": "PREGNANT",
+          "basename": "PREGNANT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_E9tW",
+          "fid": "DIABETES",
+          "name": "DIABETES",
+          "basename": "DIABETES",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_awnj",
+          "fid": "COPD",
+          "name": "COPD",
+          "basename": "COPD",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_nfiX",
+          "fid": "ASTHMA",
+          "name": "ASTHMA",
+          "basename": "ASTHMA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_f45o",
+          "fid": "INMSUPR",
+          "name": "INMSUPR",
+          "basename": "INMSUPR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_87K1",
+          "fid": "HIPERTENSION",
+          "name": "HIPERTENSION",
+          "basename": "HIPERTENSION",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_sqML",
+          "fid": "OTHER_DISEASE",
+          "name": "OTHER_DISEASE",
+          "basename": "OTHER_DISEASE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Ml5a",
+          "fid": "CARDIOVASCULAR",
+          "name": "CARDIOVASCULAR",
+          "basename": "CARDIOVASCULAR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7WPl",
+          "fid": "OBESITY",
+          "name": "OBESITY",
+          "basename": "OBESITY",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_yiWs",
+          "fid": "RENAL_CHRONIC",
+          "name": "RENAL_CHRONIC",
+          "basename": "RENAL_CHRONIC",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_IYdM",
+          "fid": "TOBACCO",
+          "name": "TOBACCO",
+          "basename": "TOBACCO",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KCAT",
+          "fid": "CLASIFFICATION_FINAL",
+          "name": "CLASIFFICATION_FINAL",
+          "basename": "CLASIFFICATION_FINAL",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cwSX",
+          "fid": "ICU",
+          "name": "ICU",
+          "basename": "ICU",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Y0Oa",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CArn",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "dimension",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mea_key_fid",
+          "fid": "gw_mea_key_fid",
+          "name": "Measure names",
+          "analyticType": "dimension",
+          "semanticType": "nominal"
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        },
+        {
+          "dragId": "gw_mea_val_fid",
+          "fid": "gw_mea_val_fid",
+          "name": "Measure values",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_3ATu",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_Ka0F",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "dimension",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      }
+    },
+    "visId": "gw_Xbcp",
+    "name": "Chart 4"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "bar"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_hzoQ",
+          "fid": "USMER",
+          "name": "USMER",
+          "basename": "USMER",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_0UB5",
+          "fid": "MEDICAL_UNIT",
+          "name": "MEDICAL_UNIT",
+          "basename": "MEDICAL_UNIT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uas3",
+          "fid": "SEX",
+          "name": "SEX",
+          "basename": "SEX",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MOi1",
+          "fid": "PATIENT_TYPE",
+          "name": "PATIENT_TYPE",
+          "basename": "PATIENT_TYPE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5Bcl",
+          "fid": "INTUBED",
+          "name": "INTUBED",
+          "basename": "INTUBED",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_U5VP",
+          "fid": "PNEUMONIA",
+          "name": "PNEUMONIA",
+          "basename": "PNEUMONIA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__JoG",
+          "fid": "PREGNANT",
+          "name": "PREGNANT",
+          "basename": "PREGNANT",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_73ye",
+          "fid": "DIABETES",
+          "name": "DIABETES",
+          "basename": "DIABETES",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5JO8",
+          "fid": "COPD",
+          "name": "COPD",
+          "basename": "COPD",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__QuG",
+          "fid": "ASTHMA",
+          "name": "ASTHMA",
+          "basename": "ASTHMA",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kRdo",
+          "fid": "INMSUPR",
+          "name": "INMSUPR",
+          "basename": "INMSUPR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_93Ur",
+          "fid": "HIPERTENSION",
+          "name": "HIPERTENSION",
+          "basename": "HIPERTENSION",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_WbAG",
+          "fid": "OTHER_DISEASE",
+          "name": "OTHER_DISEASE",
+          "basename": "OTHER_DISEASE",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_JU4B",
+          "fid": "CARDIOVASCULAR",
+          "name": "CARDIOVASCULAR",
+          "basename": "CARDIOVASCULAR",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_VcvI",
+          "fid": "OBESITY",
+          "name": "OBESITY",
+          "basename": "OBESITY",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_6_78",
+          "fid": "RENAL_CHRONIC",
+          "name": "RENAL_CHRONIC",
+          "basename": "RENAL_CHRONIC",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ZGCX",
+          "fid": "TOBACCO",
+          "name": "TOBACCO",
+          "basename": "TOBACCO",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_spd5",
+          "fid": "CLASIFFICATION_FINAL",
+          "name": "CLASIFFICATION_FINAL",
+          "basename": "CLASIFFICATION_FINAL",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-CJO",
+          "fid": "ICU",
+          "name": "ICU",
+          "basename": "ICU",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pb2a",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mea_key_fid",
+          "fid": "gw_mea_key_fid",
+          "name": "Measure names",
+          "analyticType": "dimension",
+          "semanticType": "nominal"
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_fhoU",
+          "fid": "AGE",
+          "name": "AGE",
+          "basename": "AGE",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        },
+        {
+          "dragId": "gw_mea_val_fid",
+          "fid": "gw_mea_val_fid",
+          "name": "Measure values",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_tZLV",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_uEPI",
+          "fid": "DEATH",
+          "name": "DEATH",
+          "basename": "DEATH",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      }
+    },
+    "visId": "gw_cyrv",
+    "name": "Chart 5"
+  }
+]
